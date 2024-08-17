@@ -1,0 +1,84 @@
+﻿/* Định dạng phần main */
+.mcontact-form {
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+/* Định dạng container của biểu mẫu liên hệ */
+.mcontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng hàng trong biểu mẫu liên hệ */
+.row-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Định dạng phần biểu mẫu liên hệ */
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Định dạng tiêu đề của biểu mẫu */
+    .checkout-form h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #333;
+    }
+
+/* Định dạng các ô nhập dữ liệu */
+.input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+    /* Định dạng ô nhập dữ liệu khi có lỗi */
+    .input:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+/* Định dạng label cho ô nhập dữ liệu */
+label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Định dạng ô nhập dữ liệu cho textarea */
+textarea {
+    height: 150px; /* Điều chỉnh chiều cao của textarea */
+    resize: vertical; /* Cho phép người dùng thay đổi kích thước theo chiều dọc */
+}
+
+/* Định dạng nút gửi */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }

@@ -1,0 +1,73 @@
+﻿.payment-section {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Căn chỉnh các phần của biểu mẫu */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Tiêu đề các phần */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Các nhãn */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Các ô nhập liệu */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến kích thước tổng thể */
+    margin-bottom: 15px;
+}
+
+/* Nút gửi */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+/* Các thông báo lỗi */
+.error-message {
+    color: #d9534f;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+/* Định dạng cho các ô nhập liệu không hợp lệ */
+input:invalid {
+    border-color: #d9534f;
+}
+
+input:focus:invalid {
+    outline: none;
+    box-shadow: 0 0 5px rgba(217, 83, 79, 0.5);
+}
